@@ -39,7 +39,7 @@ nav{
 .title__container{
 	float: left;
 	margin: 432px 0px 0px 404px;
-	color:#1f189f;
+	color: #1f189f;
 	text-align: center;
 }
 
@@ -63,24 +63,63 @@ nav{
 	color: #12345d;
 	font-size: 13px;
 	padding: 0px 16px;
-	margin:58px 28px 0px 14px;
+	margin: 58px 28px 0px 14px;
 
 }
 
-.main h2{
-	padding-left:287px;
-	height:700px;
-
+.obo_mne h2{
+	margin: 20px 0px 0px 45%;
+	font-size: 50px;
 }
 
+.obo_mne img{
+	margin-top: 31px;
+	margin-left: 46%;
+	margin-bottom: 15px;
+    border-radius: 1000px; 
+    box-shadow: 0 0 0 3px black, 0 0 13px #fff; 
+}
 
+.obo_mne p{
+	padding-left: 35%;
+	padding-right: 30%;
+	padding-bottom: 12px;
+}
 
+.obo_mne input{
+	margin: 20px 0px 0px 50%; 
+	height: 50px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
+/*не понимаю по чему (.chto_i_umey "h3" и .chto_i_umey "p") 
+привязанны к картинкам. 
+Наверняка  что-то в  html намудрил, но не могу понять что */
 
+.chto_i_umey h2{
+	margin: 20px 0px 0px 45%;
+	font-size: 50px;
+}
 
+.chto_i_umey img{
+	float: left;
+	margin-left: 140px;
+	
+}
 
+.chto_i_umey h3{
+	float: left;
+	padding-top: 200px;
+} 
 
-
+.chto_i_umey p{
+float: left;
+	padding-top: 200px;
+}
 
 
 
