@@ -96,35 +96,118 @@ nav{
 	padding-right: 10px;
 }
 
-/*не понимаю по чему (.chto_i_umey "h3" и .chto_i_umey "p") 
-привязанны к картинкам. 
-Наверняка  что-то в  html намудрил, но не могу понять что */
+/* <div class="veb_dizain">
+
+	<img src="https://img2.goodfon.ru/wallpaper/nbig/b/d9/minimalizm-logotip-kompyuter-4604.jpg" alt="тут должен быть монитор">
+	<style>
+		img {width: 100px}
+	</style>
+
+	<h3>Веб-дизайн</h3>
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Blanditiis repudiandae nam libero laboriosam pariatur ab consequuntur.</p>
+
+</div> */
 
 .chto_i_umey h2{
 	margin: 20px 0px 0px 45%;
 	font-size: 50px;
 }
 
-.chto_i_umey img{
+.veb_dizain{
+	margin-left: 425px;
+	margin-top: 25px;
 	float: left;
-	margin-left: 140px;
-	
+	width: 300px;
 }
 
-.chto_i_umey h3{
-	float: left;
-	padding-top: 200px;
-} 
-
-.chto_i_umey p{
-float: left;
-	padding-top: 200px;
+.veb_dizain img{
+	width: 200px;
+	height: 150px;
+	padding-left: 10%;
 }
 
+.veb_dizain h3{
+	padding-left: 25%; 	
+	margin-top: 20px;
+	color: orange;
+}
+.veb_dizain p{
+	margin-top: 20px;
+}
 
+.razrabotka{
+	margin-top: 25px;
+	float: left;
+	width: 300px;
+}
 
+.razrabotka img{
+	width: 200px;
+	height: 150px;
+	padding-left: 10%;
+}
 
+.razrabotka h3{
+	padding-left: 25%; 	
+	margin-top: 20px;
+	color: orange;
+}
 
+.razrabotka p{
+	margin-top: 20px;
+}
 
+.ceo_optimizacia{
+	margin-top: 25px;
+	float: left;
+	width: 300px;
+}
 
+.ceo_optimizacia img{
+	width: 200px;
+	height: 150px;
+	padding-left: 10%;
+}
 
+.ceo_optimizacia h3{
+	padding-left: 25%; 	
+	margin-top: 20px;
+	color: orange;
+}
+
+.ceo_optimizacia p{
+	margin-top: 20px;
+}
+
+.marketing{
+	margin-top: 25px;
+	float: left;
+	width: 500px;
+}
+
+.marketing img{
+	width: 200px;
+	height: 150px;
+	padding-left: 10%;
+}
+
+.marketing h3{
+	padding-left: 25%; 	
+	margin-top: 20px;
+	color: orange;
+}
+
+.marketing p{
+	margin-top: 20px;
+}
+
+.keysi {
+	padding-left: 50%;
+	padding-top: 50px;
+}
+
+.keysi h2{
+	margin: 20px 0px 0px 45%;
+	font-size: 50px;
+}
